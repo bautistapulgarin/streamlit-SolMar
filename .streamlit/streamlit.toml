@@ -1,8 +1,6 @@
 [server]
 headless = true
+enableXsrfProtection = false
 
-[theme]
-primaryColor="#1D6FA3"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F2F6FA"
-textColor="#000000"
+[browser]
+gatherUsageStats = false
